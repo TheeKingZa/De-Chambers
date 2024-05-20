@@ -6,12 +6,11 @@
     color: white;
     max-width: 100vh;
     max-height: 100vh;
-    border: 3px solid gold;
 }
 
 .navi {
     display: flex;
-    justify-content:flex-end;
+    justify-content:flex-start;
     
 }
 
@@ -48,13 +47,10 @@ a:hover {
 Footer sets
 ===============*/
 footer {
-    display: flex;
-    justify-content:flex-start;
 }
 
 .div-footer {
     border: 3px solid white;
-    display: flex;
 }
 
 
