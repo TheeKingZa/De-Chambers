@@ -1,7 +1,6 @@
 :root {
     margin: 0;
     padding: 2rem;
-    display: flex;
     background-color: black;
     color: white;
     max-width: 100vh;
@@ -28,7 +27,7 @@ nav {
 
 
 .ul-new {
-    font-size: 50pt;
+    font-size: 25pt;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -42,4 +41,31 @@ a {
 a:hover {
     color: black;
     background-color: gold;
+}
+
+/*
+Footer sets
+===============*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.div-footer {
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+
+section {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ul-newer {
+    font-size: 20pt;
+    list-style: none;
 }
