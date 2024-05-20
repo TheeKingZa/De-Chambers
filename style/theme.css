@@ -16,21 +16,30 @@
 }
 
 nav {
+    margin: 0;
+    padding: 10rem;
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid gold;
 }
 
 
-.logo {
-    border: 3px solid;
-    
+.logo {    
 }
 
 
 .ul-new {
-    padding: 1.5rem;
+    font-size: 50pt;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: gold;
 }
