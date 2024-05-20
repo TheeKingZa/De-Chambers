@@ -1,4 +1,5 @@
 :root {
+    display: flex;
     margin: 0;
     padding: 2rem;
     background-color: black;
@@ -48,13 +49,12 @@ Footer sets
 ===============*/
 footer {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 .div-footer {
     border: 3px solid white;
     display: flex;
-    justify-content: center;
 }
 
 
