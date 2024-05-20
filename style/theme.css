@@ -1,21 +1,36 @@
 :root {
+    margin: 0;
+    padding: 2rem;
+    display: flex;
     background-color: black;
     color: white;
+    max-width: 100vh;
+    max-height: 100vh;
+    border: 3px solid gold;
 }
 
 .navi {
     display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
-
-}
-
-.logo {
-
+    justify-content:flex-end;
+    
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid gold;
 }
 
+
+.logo {
+    border: 3px solid;
+    
+}
+
+
 .ul-new {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
