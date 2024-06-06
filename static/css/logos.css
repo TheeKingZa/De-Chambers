@@ -1,0 +1,26 @@
+
+.div-logos {
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    }
+    
+.logo1 {
+    padding: 2px;
+    width: 100%;
+    background-image: url('../../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.logo2 {
+    padding: 2px;
+    width: 100%;
+    background-image: url('../../images/The_glitz_white.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

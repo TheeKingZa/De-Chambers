@@ -1,0 +1,106 @@
+
+.section-main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../images/De-Chambers.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    
+}
+
+.section-main h1 {
+    color: var(--color-main);
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+header.sticky {
+    background: var(--color-main);
+    padding: 20px 100px;
+
+}
+
+header .brand {
+    color: var(--color-secondary);
+    font-size:  30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .menu a {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: 1s;
+    transition-property: color, background;
+
+}
+
+header .menu a:hover {
+    color: black;
+    background: var(--color-secondary);
+}
+
+header .btn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.section-two {
+    min-height: 100vh;
+    background: black;
+    padding: 0px 100px;
+}
+
+.section-two h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+
+}
+
+.section-two p {
+    color: lime;
+    font-size: 18px;
+    margin: 30px 0;    
+}

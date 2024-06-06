@@ -1,0 +1,46 @@
+@media (max-width: 1060px){
+    header .btn {
+        display: block;
+    }
+
+    header .menu{
+        position: fixed;
+        background: palevioletred;
+        flex-direction: column;
+        min-width: 400px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 1s;
+        transition-property: right;
+    }
+
+    header .menu.active {
+        right: 0;
+    }
+
+    header .menu .close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 25px;
+    }
+
+    header .menu a {
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+    }
+
+} 
+
+
+@media (max-width: 630px){
+    .section-main h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+}
